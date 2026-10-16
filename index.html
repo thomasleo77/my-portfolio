@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="My personal portfolio — projects, skills, and journey as a developer."
+  >
+  <meta name="theme-color" content="#090b0f">
+  <title>My Portfolio | Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Home">
+        dev<span>.portfolio</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="nav-links"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          MY DEVELOPER JOURNEY
+        </p>
+
+        <h1>
+          Hi, I'm a <span class="gradient-text">Developer</span><br>
+          in the making.
+        </h1>
+
+        <p class="hero-description">
+          I'm learning to build websites that look great, work smoothly,
+          and solve real problems. This is where my journey begins.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore my work <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button button-secondary" href="#contact">
+            Contact me
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌘</span> HTML · CSS · JavaScript</span>
+          <span><span class="meta-icon">⌁</span> Learning by building</span>
+        </div>
+      </div>
+
+      <div class="code-window" aria-label="Decorative code example">
+        <div class="window-bar">
+          <div class="window-dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="window-filename">developer.js</span>
+          <span class="window-spacer"></span>
+        </div>
+
+        <div class="code-content">
+          <p><span class="code-muted">01</span> <span class="code-purple">const</span> developer = {</p>
+          <p><span class="code-muted">02</span> &nbsp; name: <span class="code-green">Alexander Jason</span>,</p>
+          <p><span class="code-muted">03</span> &nbsp; learning: [</p>
+          <p><span class="code-muted">04</span> &nbsp;&nbsp; <span class="code-green">'HTML'</span>,</p>
+          <p><span class="code-muted">05</span> &nbsp;&nbsp; <span class="code-green">'CSS'</span>,</p>
+          <p><span class="code-muted">06</span> &nbsp;&nbsp; <span class="code-green">'JavaScript'</span></p>
+          <p><span class="code-muted">07</span> &nbsp; ],</p>
+          <p><span class="code-muted">08</span> &nbsp; building: <span class="code-orange">true</span></p>
+          <p><span class="code-muted">09</span> };</p>
+          <p class="code-comment">// Progress, not perfection.</p>
+        </div>
+
+        <div class="code-status">
+          <span class="status-dot"></span>
+          <span>Available to learn</span>
+          <span class="code-status-right">v1.0.0</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Building my foundation<span class="accent">.</span></h2>
+        <p class="section-description">
+          Every project is a chance to learn something new.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="info-card">
+          <span class="card-icon" aria-hidden="true">⌘</span>
+          <h3>Who I am</h3>
+          <p>
+            I'm an aspiring developer exploring web development one step
+            at a time.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-icon" aria-hidden="true">✳</span>
+          <h3>What I enjoy</h3>
+          <p>
+            Turning ideas into useful websites and figuring out how things
+            work behind the scenes.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-icon" aria-hidden="true">↗</span>
+          <h3>My goal</h3>
+          <p>
+            Build real projects, strengthen my skills, and grow into a
+            confident developer.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills I'm developing<span class="accent">.</span></h2>
+        <p class="section-description">
+          These are the tools I'm learning and practicing.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-symbol html-symbol">5</span>
+          <div>
+            <h3>HTML</h3>
+            <p>Page structure and semantics</p>
+          </div>
+          <span class="skill-status">Learning</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol css-symbol">#</span>
+          <div>
+            <h3>CSS</h3>
+            <p>Layouts, colors, and responsive design</p>
+          </div>
+          <span class="skill-status">Learning</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol js-symbol">JS</span>
+          <div>
+            <h3>JavaScript</h3>
+            <p>Interactions and programming basics</p>
+          </div>
+          <span class="skill-status">Learning</span>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol git-symbol">⌘</span>
+          <div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and sharing projects</p>
+          </div>
+          <span class="skill-status">Next up</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects & experiments<span class="accent">.</span></h2>
+        <p class="section-description">
+          A growing collection of things I build while learning.
+        </p>
+      </div>
+
+      <div class="project-filters" role="group" aria-label="Filter projects">
+        <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">
+          All
+        </button>
+        <button class="filter-button" type="button" data-filter="html" aria-pressed="false">
+          HTML & CSS
+        </button>
+        <button class="filter-button" type="button" data-filter="javascript" aria-pressed="false">
+          JavaScript
+        </button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <article class="project-card" data-category="html">
+          <div class="project-preview preview-portfolio">
+            <span class="preview-label">01 / WEB DESIGN</span>
+            <div class="preview-window">
+              <span class="preview-line short"></span>
+              <span class="preview-line"></span>
+              <span class="preview-line medium"></span>
+              <span class="preview-button"></span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-type">HTML · CSS</span>
+              <span class="project-number">PROJECT 01</span>
+            </div>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive home for my skills, projects, and developer journey.</p>
+            <a class="project-link" href="#home">
+              You're viewing it <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="javascript">
+          <div class="project-preview preview-js">
+            <span class="preview-label">02 / INTERACTION</span>
+            <div class="mini-counter">
+              <span>COUNTER DEMO</span>
+              <strong id="demo-count" aria-live="polite">0</strong>
+              <button id="counter-button" type="button">Add one +</button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-type">JAVASCRIPT</span>
+              <span class="project-number">PROJECT 02</span>
+            </div>
+            <h3>Interactive Counter</h3>
+            <p>A tiny demo that uses JavaScript to update a value when clicked.</p>
+            <button class="project-link text-button" id="reset-counter" type="button">
+              Reset demo <span aria-hidden="true">↺</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="html">
+          <div class="project-preview preview-layout">
+            <span class="preview-label">03 / UI PRACTICE</span>
+            <div class="layout-demo">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-topline">
+              <span class="project-type">HTML · CSS</span>
+              <span class="project-number">PROJECT 03</span>
+            </div>
+            <h3>Responsive Card Layout</h3>
+            <p>A practice layout exploring spacing, grids, and smaller screens.</p>
+            <a class="project-link" href="#skills">
+              Explore my toolkit <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <p class="filter-empty" id="filter-empty" hidden>
+        No projects in this category yet.
+      </p>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have an idea?<br><span class="gradient-text">Let's build something.</span></h2>
+          <p class="section-description">
+            I'm learning, experimenting, and adding new work as I go.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <!-- Replace this address with your own email. -->
+          <a class="button button-primary" href="mailto:your-thomasleo7789786@gmail.com>
+            Email me <span aria-hidden="true">↗</span>
+          </a>
+          <!-- Replace your-username with your GitHub username. -->
+          <a
+            class="button button-secondary"
+            href="https://github.com/thomasleo77"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub profile <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo footer-logo" href="#home">dev<span>.</span></a>
+      <p>Designed and built while learning.</p>
+      <p>© <span id="current-year"></span> My Portfolio</p>
+    </div>
+  </footer>
+</body>
+</html>
